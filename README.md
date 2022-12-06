@@ -1,1 +1,1 @@
-https://github.com/nickmen7/rsschool-cv
+https://nickmen7.github.io/rsschool-cv/cv

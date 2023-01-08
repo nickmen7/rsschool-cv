@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0 345px;
+    overflow: hidden;
+    background-color: #333;
+    height: 70px; 
+    border-radius: 35px;
+    font-size: 20px;
+}
+ 
+
+li {
+    float:left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 24px 24px;
+    text-decoration: none;
+    
+}
+
+li a:hover {
+    background-color: #111;
+}
+p {
+  margin-left: 35px;
+  font-size: 20px;
+  margin: 0 auto;
+  padding-top: 0.5rem;
+  font-weight: bolder;
+
+ }
+div {
+  margin: px;
+  font-size: 19px;
+  text-align: center;
+
+}
+.contact {
+    margin: 0 auto;
+    width: 100%;
+    padding-top: 5rem;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    text-transform: capitalize;
+    font-size: 25px;
+    text-align: center;
+  }
+  pre  {
+    text-transform: capitalize;
+    font-size: 25px;
+    text-align: center;
+    height: 500px;
+  }
+code {
+  background: #b3b3b3;
+  color: rgb(22, 4, 4);
+  font-size: 15px;
+  display: block;
+    }
+.Education {
+  font-size: 15px;
+}
+.ega {
+  font-size: 115px;
+}

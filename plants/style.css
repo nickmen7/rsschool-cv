@@ -32,7 +32,7 @@ body {
 header {
 	width: 100%;
 	height: 134px;
-	padding: 42px;
+	padding: 42px 0;
 	background: #EDF2EC;
 }
 
@@ -57,6 +57,7 @@ header {
     justify-content: space-between;
     align-items: baseline;
     transition: 1s;
+	max-width: 1220px;
 }
 
 .header1 {
@@ -160,22 +161,23 @@ header {
 }
 
 
-.bout1 {
-	display: flex;
-    justify-content: space-between;
-}
-
 .bout2 {
 	font:right;
+	max-width: 464px;
 }
 
 
 .bout3 {
-	max-width: 550px;
+	/* max-width: 550px; */
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
+    justify-content: space-between;
 	padding: 97px 0 0 0px;
 	
+}
+
+.bout6 {
+	max-width: 605px;
 }
 
 .bout4 {

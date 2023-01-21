@@ -27,6 +27,7 @@ html{
 
 body {
 	margin: 0;
+	font-family: "Inter", sans-serif;
 }
 
 header {
@@ -146,7 +147,14 @@ header {
 	color: #000000;
 	background-color: inherit;
 	text-decoration: none;
+	
 }
+
+.button_1:hover {
+	color: #ffffff;
+    background-color: #E06733;
+  }
+
 
 .about {
 	padding: 0 0 90px 0;
@@ -272,35 +280,11 @@ header {
 	color:#E06733
 	}
 	
-.service3 {
-	font-family: "Inika", serif;
-    min-width: 161px;
-    font-size: 20px;
-    line-height: 26px;
-    display: inline-block;
-    text-align: center;
-    padding: 11px 40px;
-    border: 1px solid #E06733;
-    border-radius: 5px;
-    margin: 0 19.4px;
-    transition: 1s;
-	color:#E06733
-}
+.service2:hover {
+	color: #ffffff;
+    background-color: #E06733;
+  }
 
-.service4 {
-	font-family: "Inika", serif;
-    min-width: 161px;
-    font-size: 20px;
-    line-height: 26px;
-    display: inline-block;
-    text-align: center;
-    padding: 11px 40px;
-    border: 1px solid #E06733;
-    border-radius: 5px;
-    margin: 0 19.4px;
-    transition: 1s;
-	color:#E06733
-}
 
 #service5 {
 	
@@ -358,13 +342,7 @@ header {
 }
 
 #service11 {
-	
-	width: 120px;
-	height: 24px;
-	left: 214px;
-	top: 584px;
-	font-family: 'Inter';
-	font-style: normal;
+	font-family: "Inter", sans-serif;
 	font-weight: 700;
 	font-size: 20px;
 	line-height: 20px;
@@ -372,13 +350,7 @@ header {
 }
 
 #service12 {
-	
-	width: 267.19px;
-	height: 20px;
-	left: 139.91px;
-	top: 618px;
-	font-family: 'Inter';
-	font-style: normal;
+	font-family: "Inter", sans-serif;
 	font-weight: 400;
 	font-size: 16px;
 	line-height: 20px;
@@ -387,13 +359,7 @@ header {
 }
 
 #service13 {
-	
-	width: 90px;
-	height: 24px;
-	left: 676px;
-	top: 584px;
-	font-family: 'Inter';
-	font-style: normal;
+	font-family: "Inter", sans-serif;
 	font-weight: 700;
 	font-size: 20px;
 	line-height: 20px;
@@ -402,13 +368,7 @@ header {
 }
 
 #service14 {
-	
-	width: 267.19px;
-	height: 20px;
-	left: 585.91px;
-	top: 618px;
-	font-family: 'Inter';
-	font-style: normal;
+	font-family: "Inter", sans-serif;
 	font-weight: 400;
 	font-size: 16px;
 	line-height: 20px;
@@ -416,13 +376,7 @@ header {
 }
 
 #service15 {
-	
-	width: 104px;
-	height: 24px;
-	left: 1114px;
-	top: 584px;
-	font-family: 'Inter';
-	font-style: normal;
+	font-family: "Inter", sans-serif;
 	font-weight: 700;
 	font-size: 20px;
 	line-height: 20px;
@@ -430,13 +384,7 @@ header {
 }
 
 #service16 {
-	
-	width: 267.19px;
-	height: 20px;
-	left: 1031.91px;
-	top: 618px;
-	font-family: 'Inter';
-	font-style: normal;
+	font-family: "Inter", sans-serif;
 	font-weight: 400;
 	font-size: 16px;
 	line-height: 20px;
@@ -444,13 +392,7 @@ header {
 }
 
 #service17 {
-	
-	width: 90px;
-	height: 24px;
-	left: 229px;
-	top: 1089px;
-	font-family: 'Inter';
-	font-style: normal;
+	font-family: "Inter", sans-serif;
 	font-weight: 700;
 	font-size: 20px;
 	line-height: 20px;
@@ -459,13 +401,7 @@ header {
 }
 
 #service18 {
-	
-	width: 267.19px;
-	height: 20px;
-	left: 139.91px;
-	top: 1123px;
-	font-family: 'Inter';
-	font-style: normal;
+	font-family: "Inter", sans-serif;
 	font-weight: 400;
 	font-size: 16px;
 	line-height: 20px;
@@ -473,13 +409,7 @@ header {
 }
 
 #service19 {
-	
-	width: 120px;
-	height: 24px;
-	left: 660px;
-	top: 1089px;
-	font-family: 'Inter';
-	font-style: normal;
+	font-family: "Inter", sans-serif;
 	font-weight: 700;
 	font-size: 20px;
 	line-height: 20px;
@@ -488,13 +418,7 @@ header {
 }
 
 #service20 {
-	
-	width: 267.19px;
-	height: 20px;
-	left: 585.91px;
-	top: 1123px;
-	font-family: 'Inter';
-	font-style: normal;
+	font-family: "Inter", sans-serif;
 	font-weight: 400;
 	font-size: 16px;
 	line-height: 20px;
@@ -502,13 +426,7 @@ header {
 }
 
 #service21 {
-	
-	width: 90px;
-	height: 24px;
-	left: 1121px;
-	top: 1089px;
-	font-family: 'Inter';
-	font-style: normal;
+	font-family: "Inter", sans-serif;
 	font-weight: 700;
 	font-size: 20px;
 	line-height: 20px;
@@ -517,19 +435,18 @@ header {
 }	
 
 #service22 {
-
-	width: 267.19px;
-	height: 20px;
-	left: 1031.91px;
-	top: 1123px;
-	font-family: 'Inter';
-	font-style: normal;
+	font-family: "Inter", sans-serif;
 	font-weight: 400;
 	font-size: 16px;
 	line-height: 20px;
 	color: #717171;
 }
 
+.service_kartinka1 {
+	border: 1px solid #E3E1D5;
+    border-radius: 21px;
+	text-align: center;
+}
 
 .prices {
 	background: #FFFFFF;
@@ -596,7 +513,6 @@ max-height: 282px;
 
 .prices4 {
 	box-sizing: border-box;
-	
 	border: 1px solid #E06733;
 	border-radius: 5px;
 	width: 162px;
@@ -612,6 +528,12 @@ max-height: 282px;
 	color: #E06733;
 	background-color: inherit;
 }
+
+.prices4:hover {
+	color: #ffffff;
+    background-color: #E06733;
+  }
+
 
 .prices5 {
 	box-sizing: border-box;
@@ -778,7 +700,6 @@ max-height: 282px;
 }
 
 .footer__data {
-
 	word-spacing: 14px;
     font-size: 20px;
     line-height: 50px;
@@ -788,7 +709,8 @@ max-height: 282px;
 }
 
 .footer__rss {
-
+	text-decoration: none;
+	border: none;
 	margin: 0 0 0 35px;
     font-size: 20px;
     line-height: 50px;
@@ -804,4 +726,5 @@ max-height: 282px;
 
 .footer__link {
 	margin: 0 0 0 20px;
+	
 }

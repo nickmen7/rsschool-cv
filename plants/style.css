@@ -128,10 +128,11 @@ header {
 
 
 
-#wdtn {
+.wdtn {
 	color:#499A18;
 }
-#jhfytdsq {
+
+.jhfytdsq {
 	color:#E06733;
 }
 .button_1 {
@@ -456,6 +457,8 @@ header {
 
 .prices_head {
 	display: flex;
+	justify-content: space-between;
+}
 	
 }
 
@@ -699,7 +702,9 @@ max-height: 282px;
 	justify-content: space-between;
 }
 
-.footer__data {
+.footer__data a {
+	text-decoration: none;
+	border: none;
 	word-spacing: 14px;
     font-size: 20px;
     line-height: 50px;
@@ -708,7 +713,7 @@ max-height: 282px;
 
 }
 
-.footer__rss {
+.footer__rss a {
 	text-decoration: none;
 	border: none;
 	margin: 0 0 0 35px;

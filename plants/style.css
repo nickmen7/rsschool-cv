@@ -51,6 +51,12 @@ header {
 
 
 
+
+
+	
+
+
+
 .kola {
 	display: flex;
     justify-content: space-between;
@@ -297,7 +303,7 @@ header {
 	border-radius: 20px 20px 0px 0px;
 }
 
-#service6 {
+.service6 {
 	
 	width: 329px;
 	height: 350px;
@@ -733,3 +739,33 @@ max-height: 282px;
 	margin: 0 0 0 20px;
 	
 }
+
+
+@media screen and (max-width: 768px) {
+	.container {
+	  width: 100%;
+	 
+	}
+
+	.welcome {
+		
+		padding: 0 50px 0 50px;
+	}
+
+	.welcom1 {
+
+		flex-direction: row-reverse;
+	}
+	.welcom2 img {
+
+		max-width: 280px;
+		
+	}
+
+	.right2 {
+
+	font-size: 35px;
+		
+	}
+
+  }

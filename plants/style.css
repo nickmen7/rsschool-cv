@@ -242,7 +242,7 @@ header {
 
 }
 
-.service_space1 div:not(:last-child){
+#service_space1 div:not(:last-child){
 
 	padding-right: 117px;
 }
@@ -252,7 +252,7 @@ header {
 	padding: 0 0 0 0 ;
 }
 
-.service_space2 div:not(:last-child) {
+#service_space2 div:not(:last-child) {
 
 	padding-right: 117px;
 
@@ -261,10 +261,6 @@ header {
 
 .service1 {
 	margin: 0;
-	width: 306px;
-	height: 94px;
-	left: 109px;
-	top: 40px;
 	font-family: 'Inika';
 	font-style: normal;
 	font-weight: 400;
@@ -275,7 +271,6 @@ header {
 
 .service2 {
 	font-family: "Inika", serif;
-    min-width: 161px;
     font-size: 20px;
     line-height: 26px;
     display: inline-block;
@@ -295,57 +290,33 @@ header {
 
 
 #service5 {
-	
-	width: 329px;
-	height: 350px;
-	left: 110px;
-	top: 224px;
+
 	border-radius: 20px 20px 0px 0px;
 }
 
 .service6 {
-	
-	width: 329px;
-	height: 350px;
-	left: 556px;
-	top: 224px;
+
 	border-radius: 20px 20px 0px 0px;
 	
 }
 
-#service7 {
-	
-	width: 329px;
-	height: 350px;
-	left: 1002px;
-	top: 224px;
+.service7 {
+
 	border-radius: 20px 20px 0px 0px;
 }
 
 #service8 {
-	
-	width: 329px;
-	height: 350px;
-	left: 110px;
-	top: 729px;
+
 	border-radius: 20px 20px 0px 0px;
 }
 
 #service9 {
-	
-	width: 329px;
-	height: 350px;
-	left: 556px;
-	top: 729px;
+
 	border-radius: 20px 20px 0px 0px;
 }
 
 #service10 {
 	
-	width: 329px;
-	height: 350px;
-	left: 1002px;
-	top: 729px;
 	border-radius: 20px 20px 0px 0px;
 }
 
@@ -456,6 +427,13 @@ header {
 	text-align: center;
 }
 
+.service_kartinka2 {
+	border: 1px solid #E3E1D5;
+    border-radius: 21px;
+	text-align: center;
+}
+
+
 .prices {
 	background: #FFFFFF;
 }
@@ -466,18 +444,19 @@ header {
 	justify-content: space-between;
 }
 	
-}
+
 
 .prices_block1 {
 	display: flex;
     flex-direction: column;
+    align-items: flex-start;
 }
 
 .prices__prices {
 	font-weight: 700;
     font-size: 40px;
     line-height: 48px;
-    margin: 40px 0 50px 0;
+    margin: 40px 0 0 0;
 }
 
 .prices__lists2 {
@@ -496,7 +475,6 @@ flex-direction: column;
 border: 1px solid #E3E1D5;
 border-radius: 20px;
 padding: 30px 38px;
-margin: 10px 0 0 0;
 max-height: 282px;
 
 }
@@ -602,12 +580,13 @@ max-height: 282px;
 
 .prices9 {
 	
-	width: 97.12px;
-	height: 75.82px;
+	width: 152px;
+	height: 175px;
 	left: 1179px;
 	top: 282.51px;
 	right:155.59px;
 	filter: blur(2.5px);
+	margin: 34px 0 0 0;
 	
 }
 
@@ -679,6 +658,7 @@ max-height: 282px;
 
 .contacts3 {
 	height: 50px;
+	width: 450px;
 	margin: 148px 109px 0px;
     flex: 0 1 450px;
     background: #D6E7D2;
@@ -742,11 +722,26 @@ max-height: 282px;
 
 
 @media screen and (max-width: 768px) {
+	
+	.header {
+		
+		height: 117px;
+		padding: 0;
+	}
+	
+	
+	
 	.container {
-	  width: 100%;
-	 
+		
+		max-width: 668px;
+		padding: 17.5px 50px 17.5px 50px;
+			 
 	}
 
+	.container1 {
+		
+
+	}
 	.welcome {
 		
 		padding: 0 50px 0 50px;
@@ -762,10 +757,226 @@ max-height: 282px;
 		
 	}
 
+	.right-block {
+
+		padding: 40px 0 35px 0px;
+
+	}
+
 	.right2 {
 
 	font-size: 35px;
 		
 	}
+	
+	.welcom_text {
+		font-size: 16px;
+  		line-height: 25px;
+		width: 315px;
+		height: 105px;
+	}
 
-  }1
+	.bout3 {
+		padding: 0 50px 0 50px;
+		flex-direction: column;
+	}
+
+	.bout4 {
+		padding: 40px 0 0 121px;
+		max-width: 423px;
+		font-size: 35px;
+		line-height: 46px;
+		text-align: center;
+		font-family: 'Inika';
+	}
+	
+	.bout5 {
+		height: 208px;
+		width: 668px;
+		font-size: 21px;
+		margin: 0;
+
+	}
+	
+	.bout6 {
+		align-content: center;
+		max-width: 768px;
+
+	}
+
+	.bout2 img {
+
+		max-width: 250px;
+		padding: 40px 0 95px 209px;
+
+	}
+
+	.service {
+		padding: 0 50px 0 50px;
+		max-width: 768px;
+		height: 1780px;
+
+	}
+
+	.service_space1 {
+
+		max-width: 768px;
+		flex-direction: column;
+
+	}
+	
+
+	.service1 {
+
+		font-size: 35px;
+		line-height: 45px;
+		width: 306px;
+
+	}
+
+	.service_7 {
+
+		flex-direction: column;
+
+	}
+	
+	.service_bottons {
+
+		padding: 40px 0 0 0;
+
+	}
+
+	.service2 {
+
+		margin: 0 38px 0 0;
+		;	
+
+	}
+
+	.service_img {
+
+		padding: 40px 0 121px 0;
+
+	}
+
+	.service7 {
+
+		width: 252px;	
+
+	}
+
+	.service_space1 div {
+
+		padding: 0 25px 38px 0;
+	}
+
+	.service_space2  {
+
+		flex-direction: column;
+		
+
+	}
+
+	.swe {
+
+		padding: 0 25px 38px 0;
+
+	}
+
+
+
+	.prices {
+
+		padding: 40px 50px 0 50px ;
+
+	}
+
+	.prices__lists {
+
+		width: 250px;
+		
+	}
+
+	.prices__lists2 {
+			
+		padding: 79px 0 88px 40px;
+
+	}
+
+	.prices__prices {
+		margin: inherit;
+		font-size: 35px;
+		line-height: 43px;
+		padding: 0 0 56px 0;
+		
+	}
+
+	.prices2 {
+		width: 296px;
+		font-size: 25px;
+		line-height: 35px;
+
+	}
+
+	.contacts_1 {
+
+		padding: 1px 0 0 0;
+
+	}
+
+	.contacts_fail {
+
+		flex-direction: column-reverse;
+
+	}
+
+	.contacts_kartinka {
+
+		margin: 232px 0 1px 294px;
+
+	}
+	
+	.contacts3 {
+
+		margin: 75px 0 0 159px;
+
+	}
+	
+
+	
+
+	.contacts_fail img{
+		
+		width: 200px;
+
+	}
+
+	.footer {
+		height: 149px;
+		padding: 32px 0 0 0;
+	}
+
+	.container_footer2 {
+
+		display: flex;
+    	flex-direction: column;
+    	align-items: center;
+
+	}
+
+	.footer__data a {
+		padding: 32px 20px 16px 20px;
+		line-height: 24px;
+
+	}
+
+
+
+	.footer__links {
+		
+		padding: 27px 0 27px 0;
+
+	}
+
+
+  }

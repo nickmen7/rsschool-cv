@@ -702,8 +702,7 @@ max-height: 282px;
 .footer__rss a {
 	text-decoration: none;
 	border: none;
-	margin: 0 0 0 35px;
-    font-size: 20px;
+	font-size: 20px;
     line-height: 50px;
     color: #000000;
     transition: 1s;
@@ -716,7 +715,7 @@ max-height: 282px;
 }
 
 .footer__link {
-	margin: 0 0 0 20px;
+	margin: 0 0 0 27px;
 	
 }
 
@@ -759,12 +758,13 @@ max-height: 282px;
 
 	.right-block {
 
-		padding: 40px 0 35px 0px;
+		padding: 40px 0 70px 0px;
 
 	}
 
 	.right2 {
-
+	
+	margin: 0;
 	font-size: 35px;
 		
 	}
@@ -772,8 +772,10 @@ max-height: 282px;
 	.welcom_text {
 		font-size: 16px;
   		line-height: 25px;
-		width: 315px;
+		width: 341px;
 		height: 105px;
+		padding: 30px 0 30px 5px;
+		margin:0;
 	}
 
 	.bout3 {
@@ -782,17 +784,18 @@ max-height: 282px;
 	}
 
 	.bout4 {
-		padding: 40px 0 0 121px;
+		padding: 40px 173px 40px 122px;
 		max-width: 423px;
 		font-size: 35px;
 		line-height: 46px;
 		text-align: center;
 		font-family: 'Inika';
+		margin: 0 0 0 25px;
+		font-weight: 400;
 	}
 	
 	.bout5 {
 		height: 208px;
-		width: 668px;
 		font-size: 21px;
 		margin: 0;
 
@@ -807,7 +810,7 @@ max-height: 282px;
 	.bout2 img {
 
 		max-width: 250px;
-		padding: 40px 0 95px 209px;
+		padding: 40px 0 7px 209px;
 
 	}
 
@@ -887,7 +890,7 @@ max-height: 282px;
 
 	.prices {
 
-		padding: 40px 50px 0 50px ;
+		padding: 35px 50px 0 50px ;
 
 	}
 
@@ -906,7 +909,7 @@ max-height: 282px;
 	.prices__prices {
 		margin: inherit;
 		font-size: 35px;
-		line-height: 43px;
+		line-height: 42px;
 		padding: 0 0 56px 0;
 		
 	}
@@ -932,13 +935,14 @@ max-height: 282px;
 
 	.contacts_kartinka {
 
-		margin: 232px 0 1px 294px;
+		margin: 254px 0 -3px 294px;
 
 	}
 	
 	.contacts3 {
 
-		margin: 75px 0 0 159px;
+		height: auto;
+		margin: 66px 0 0 159px;
 
 	}
 	
@@ -948,6 +952,7 @@ max-height: 282px;
 	.contacts_fail img{
 		
 		width: 200px;
+		height: 249px;
 
 	}
 
@@ -964,6 +969,12 @@ max-height: 282px;
 
 	}
 
+	.footer__data {
+
+		font-size: 18px;
+
+	}
+
 	.footer__data a {
 		padding: 32px 20px 16px 20px;
 		line-height: 24px;
@@ -974,7 +985,7 @@ max-height: 282px;
 
 	.footer__links {
 		
-		padding: 27px 0 27px 0;
+		padding: 15px 15px 30px 0;
 
 	}
 

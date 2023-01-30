@@ -105,7 +105,11 @@ header {
 	padding: 52px 0 0 0;
 }
 
+.burger-menu {
 
+	display: none;
+
+}
 
 
 .right2 {
@@ -172,9 +176,7 @@ header {
 
 
 .bout2 {
-	font:right;
-	max-width: 464px;
-	padding: 0 0 0 0;	
+	margin: 0 auto;
 }
 
 
@@ -486,7 +488,6 @@ max-height: 282px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
-    font-size: 40px;
     line-height: 48px;
     color: #000000;
 }
@@ -543,8 +544,7 @@ max-height: 282px;
 	font-weight: 700;
 	font-size: 20px;
 	line-height: 20px;
-	color: #000000;
-	border: 1px solid #E3E1D5;
+		
 }
 
 .prices-button:not(:last-child) {
@@ -659,8 +659,6 @@ max-height: 282px;
 .contacts3 {
 	height: 50px;
 	width: 450px;
-	margin: 148px 109px 0px;
-    flex: 0 1 450px;
     background: #D6E7D2;
 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 	border-radius: 0px;
@@ -681,6 +679,14 @@ max-height: 282px;
 	max-width: 1440px;
 	padding: 0 0;
     margin: 0 auto;
+}
+
+
+.comtacts_text  {
+
+	display: flex;
+
+
 }
 
 .container_footer2 {
@@ -784,33 +790,36 @@ max-height: 282px;
 	}
 
 	.bout4 {
-		padding: 40px 173px 40px 122px;
+		
 		max-width: 423px;
 		font-size: 35px;
 		line-height: 46px;
 		text-align: center;
 		font-family: 'Inika';
-		margin: 0 0 0 25px;
+		margin: 0 auto;
 		font-weight: 400;
 	}
 	
 	.bout5 {
+
 		height: 208px;
-		font-size: 21px;
-		margin: 0;
+		margin: 0 auto;
+		padding-top: 40px;
 
 	}
 	
 	.bout6 {
 		align-content: center;
 		max-width: 768px;
+		padding-top: 40px;
 
 	}
 
 	.bout2 img {
 
 		max-width: 250px;
-		padding: 40px 0 7px 209px;
+		
+		
 
 	}
 
@@ -896,7 +905,7 @@ max-height: 282px;
 
 	.prices__lists {
 
-		width: 250px;
+		max-width: 254px;
 		
 	}
 
@@ -907,7 +916,7 @@ max-height: 282px;
 	}
 
 	.prices__prices {
-		margin: inherit;
+		margin: 0 0 0 15px;
 		font-size: 35px;
 		line-height: 42px;
 		padding: 0 0 56px 0;
@@ -915,7 +924,7 @@ max-height: 282px;
 	}
 
 	.prices2 {
-		width: 296px;
+		max-width: 296px;
 		font-size: 25px;
 		line-height: 35px;
 
@@ -935,7 +944,8 @@ max-height: 282px;
 
 	.contacts_kartinka {
 
-		margin: 254px 0 -3px 294px;
+		margin: 0 auto;
+		margin-top: 254px;
 
 	}
 	
@@ -957,7 +967,7 @@ max-height: 282px;
 	}
 
 	.footer {
-		height: 149px;
+		max-height: 149px;
 		padding: 32px 0 0 0;
 	}
 
@@ -996,6 +1006,71 @@ max-height: 282px;
 
 
   @media screen and (max-width: 380px) {
+
+
+	.header {
+
+		width: 380px;
+		height: 96px;
+
+	}
+
+
+	.container {
+
+		padding: 40px 0 0 25px;
+
+
+	}
+
+	.menu {
+
+		display: none;
+	}
+
+
+	.burger-menu {
+
+		flex-direction: column;
+		display: flex;
+		cursor: pointer;
+		position: fixed;
+		padding-right: 15px;
+		right: 10px;
+		margin-top: -4px;
+
+	}
+
+	.bar1, .bar2, .bar3, .bar4 {
+		border-bottom: 2px solid #717171;
+		width: 40px;
+		height: 6px;
+		margin: auto;
+		transition: 0.5s;
+	  }
+
+	  .change .bar1 {
+		-webkit-transform: rotate(-45deg) translate(-8px, 8px) ;
+		transform: rotate(-45deg) translate(-8px, 8px) ;
+	  }
+
+	.change .bar2 {
+			opacity: 0;
+		  }
+		  
+		
+		  .change .bar3 {
+			-webkit-transform: rotate(45deg) translate(0px, -10px);
+			transform: rotate(45deg) translate(1px, -8px);
+			
+		  }
+
+		  .change .bar4 {
+			opacity: 0;
+		  }
+		  
+
+		  }
 
 	.welcome {
 		max-height: 300px;
@@ -1092,11 +1167,16 @@ max-height: 282px;
 	}
 
 	.bout2 img {
-		padding: 0 0 0 0;
+		padding: 0;
 		max-width: 150px;
 		height: 147px;
-		padding: 0 0 31px 115px;
+		
 
+	}
+
+	.bout6 {
+
+		padding: 0;
 	}
 
 	.service {
@@ -1130,7 +1210,7 @@ max-height: 282px;
 	}
 
 	.prices {
-		padding: 10px 146px 0 146px;
+		
 		max-width: 382px;
 		height: 512px;
 
@@ -1160,8 +1240,9 @@ max-height: 282px;
 	}
 
 	.prices__lists {
-	padding: 25px 20px;
-    max-height: 235px;
+		padding: 25px 20px;
+		max-height: 235px;
+		max-width: 224px;
 	}
 
 	.prices__lists2 {
@@ -1192,8 +1273,14 @@ max-height: 282px;
 	.contacts {
 
 		max-width: 384px;
-		height: 445px;
-		padding: 0 96px 80px 96px;
+		max-height: 512px;
+		padding: 0px 96px 0px 96px;
+
+	}
+
+	.contacts_1 {
+
+		padding:0 0 0 0;
 
 	}
 
@@ -1206,24 +1293,53 @@ max-height: 282px;
 
 	}
 
-	.contacts_fail {
 
-		flex-direction: column;
+	.comtacts_text {
+
+		max-width: 300px;
+		padding: 80px 0 132px 0;
+	}
+
+	.contacts_kartinka {
+
+		margin: 0;
+
+	}
+
+	.contacts_fail {
+		
     	align-items: center;
 }
 
 	
-
-
-	.contacts3 {
-
-		max-width: 300px;
-    	margin: 80px 0 0 0px;
-    	padding: 7px 270px 0 20px
+	.contacts_fail img {
+		margin-bottom: -3px;
+		max-width: 100px;
+		max-height: 128px;
 
 	}
 
+	.contacts3 {
 
+		margin: 0 auto;
+		max-width: 300px;
+    	
+	}
+
+
+	.footer {
+		
+		padding: 22px 0 0 0;
+		max-width: 380px;
+		max-height: 146px;
+
+	}
+
+	.footer__links {
+
+		padding: 0 15px 18px 0;
+
+	}
 
 
   }

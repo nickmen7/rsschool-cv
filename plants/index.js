@@ -1,1 +1,3 @@
-console.log(55)
+function burgerMenu(icon) {
+    icon.classList.toggle("change");
+}

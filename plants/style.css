@@ -743,10 +743,7 @@ max-height: 282px;
 			 
 	}
 
-	.container1 {
-		
 
-	}
 	.welcome {
 		
 		padding: 0 50px 0 50px;
@@ -756,6 +753,8 @@ max-height: 282px;
 
 		flex-direction: row-reverse;
 	}
+
+
 	.welcom2 img {
 
 		max-width: 280px;
@@ -1070,7 +1069,7 @@ max-height: 282px;
 		  }
 		  
 
-		  }
+
 
 	.welcome {
 		max-height: 300px;
@@ -1342,4 +1341,4 @@ max-height: 282px;
 	}
 
 
-  }
+}

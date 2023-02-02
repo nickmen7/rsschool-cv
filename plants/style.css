@@ -62,7 +62,7 @@ header {
     justify-content: space-between;
     align-items: baseline;
     transition: 1s;
-	max-width: 1220px;
+	max-width: 1440px;
 }
 
 .header1 {
@@ -176,7 +176,7 @@ header {
 
 
 .bout2 {
-	margin: 0 auto;
+	margin: 0 ;
 }
 
 
@@ -782,6 +782,11 @@ max-height: 282px;
 		padding: 30px 0 30px 5px;
 		margin:0;
 	}
+
+	.bout2 {
+		margin: 0 auto;
+	}
+	
 
 	.bout3 {
 		padding: 0 50px 0 50px;
